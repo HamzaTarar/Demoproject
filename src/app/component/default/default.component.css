@@ -1,0 +1,266 @@
+
+.day img {
+  width: 100%;
+}
+.fool {
+  position: absolute;
+  top: 50%;
+  left: 9%;
+  color: white;
+}
+hr {
+  width: 10%;
+  /* background-color: #4ac4f3; */
+  border: 1px solid #4ac4f3;
+}
+.yes img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+}
+.no img {
+  width: 100%;
+}
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 55px;
+}
+.card.text-center.pt-3.hope:hover {
+  box-shadow: 0 0 6px rgb(35 173 255);
+}
+.fail {
+  background-color: #4ac4f3e6;
+  margin-top: -31px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.viral {
+  position: relative;
+  display: flex;
+}
+.viral i.far.fa-folder.fa-3x {
+  line-height: 65px;
+  display: inline-block;
+  margin-right: 15px;
+  color: white;
+}
+.such {
+  flex: 1;
+  -webkit-box-flex: 1;
+  color: white;
+}
+.such span {
+  display: inline-block;
+  width: 100%;
+  font-size: 35px;
+  line-height: 30px;
+  margin: 0 0 5px;
+}
+.such label {
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+.viral i.far.fa-newspaper.fa-3x {
+  line-height: 65px;
+  display: inline-block;
+  margin-right: 15px;
+  color: white;
+}
+.viral i.far.fa-user.fa-3x {
+  line-height: 65px;
+  display: inline-block;
+  margin-right: 15px;
+  color: white;
+}
+i.far.fa-star.fa-3x {
+  line-height: 65px;
+  display: inline-block;
+  margin-right: 15px;
+  color: white;
+}
+.count {
+  border-top: 1px solid#fff;
+  margin-top: 60px;
+  padding-top: 60px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.selection-field {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.group {
+  background-color: #4ac4f3;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: inline-block;
+  padding: 30px;
+  /* margin: 30px auto; */
+}
+.selection-field input[type="text"] {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  height: 48px;
+  color: #b6b6b6;
+  line-height: 48px;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+}
+button#submit {
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  color: white;
+}
+.card:hover {
+  box-shadow: 3px 3px 5px 5px #4ac4f3e6;;
+}
+.face {
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 10%;
+}
+.icon {
+  width:30%;
+  position: relative;
+  left: 100px;
+}
+.fat {
+  background-color: #4ac4f3;
+  padding: 5%;
+  color: #fff;
+
+}
+.sea{
+  border: none;
+  padding: 1rem;
+  margin: 1rem;
+}
+.hope {
+  text-align: center;
+  padding: 1rem;
+}
+@media (max-width: 1199px)  {
+  .icon{
+    position: relative;
+    left: 33%;
+    width: 45%;
+  }
+  .hope{
+    margin: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .viral{
+    padding: 1rem;
+  }
+}
+@media (max-width: 990px) {
+  .wash{
+    font-size: 25px;
+  }
+  .yes{
+    width: 100%;
+  }
+  .sea{
+    width: 100%;
+  }
+  .hey{
+    font-size: 19px;
+
+  }
+ .why{
+   font-size: 24px;
+ }
+ .where{
+   font-size: 14px;
+   width: 60%;
+ }
+ .fool{
+   position: absolute;
+   top: 40%;
+ }
+}
+@media (max-width: 768px){
+  .wash{
+    font-size: 20px;
+  }
+  .viral{
+    padding-top: 20px;
+  }
+  .ans{
+    margin-top: 3rem;
+  }
+  .group{
+    margin-top: 3rem;
+  }
+  .yes{
+    margin-top: 10%;
+  }
+  .hey{
+    font-size: 15px;
+
+  }
+ .why{
+   font-size: 20px;
+ }
+ .where{
+   font-size: 12px;
+   width: 60%;
+ }
+ .fool{
+   position: absolute;
+   top: 25%;
+ }
+}
+@media (max-width: 600px){
+  .wash{
+    font-size: 15px;
+  }
+  .hey{
+    font-size: 12px;
+    margin: 0;
+
+  }
+ .why{
+   font-size: 14px;
+   margin: 0;
+ }
+ .where{
+   font-size: 8px;
+   margin: 0;
+   margin-bottom: 9px;
+   width: 65%;
+ }
+ .fool{
+   position: absolute;
+   top: 12%;
+ }
+ .dada{
+  margin: 0;
+  width: 20%;
+  font-size: x-small;
+  margin-top: -13px;
+  padding: 1px;
+
+
+
+ }
+}
+@media (min-width: 992px){
+
+ .where{
+
+   width: 50%;
+ }
+
+}
